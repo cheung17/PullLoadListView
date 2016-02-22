@@ -4,9 +4,8 @@
 > * 导入Demo/libs/的jar包
 > * 编写自己的上拉加载布局
 > * 传入布局名称(文件名)
-```Java
-PullLoadListview.mLayout="my_footerView"
 > * 设置上拉加载监听
 ```Java
+PullLoadListview.mLayout="my_footerView"
 listview.setOnPullLoadListener
 
