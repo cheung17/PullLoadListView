@@ -4,7 +4,10 @@
 > * 编写自己的上拉加载布局
 > * 传入布局名称(文件名)
 > * 设置上拉加载监听
+> * 加载完毕时结束加载
+
 ```Java
 PullLoadListview.mLayout="my_footerView"
 listview.setOnPullLoadListener
+listview.onPullLoadCompleteLoad()
 
